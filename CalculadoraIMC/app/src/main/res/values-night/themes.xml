@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculadoraIMC" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="CustomIconStyle">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="CustomFieldStyle">
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#6D6D6D</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="cursorColor">@color/black</item>
+    </style>
+
+    <style name="CustomCardStyle">
+        <item name="android:backgroundTint">@color/primarydrk</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:backgroundTint">@color/primarydrk</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
